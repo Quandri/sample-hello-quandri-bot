@@ -1,0 +1,15 @@
+# ========================================================================
+# Copyright (c) Quandri Tech. All Rights Reserved.
+#
+# This file is proprietary and confidential. Unauthorized copying
+# of this file, via any medium, is strictly prohibited.
+#
+# ========================================================================
+
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - rpaframework

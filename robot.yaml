@@ -1,0 +1,16 @@
+# ========================================================================
+# Copyright (c) Quandri Tech. All Rights Reserved.
+#
+# This file is proprietary and confidential. Unauthorized copying
+# of this file, via any medium, is strictly prohibited.
+#
+# ========================================================================
+robot:
+  name: Sample Hello Quandri Bot
+tasks:
+  Default:
+    shell: python tasks.py
+condaConfigFile: conda.yaml
+artifactsDir: output
+ignoreFiles:
+  - .gitignore
